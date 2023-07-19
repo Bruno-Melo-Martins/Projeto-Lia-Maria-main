@@ -6,8 +6,23 @@
 
 #li{
     float: right;
-    margin-left: 5px;
-    margin-top: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#li:hover{
+    background-color: rgb(139, 81, 42);
+}
+
+a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: rgb(55, 22, 0);
+}
+
+a:active{
+    color: black;
 }
 
 .soulia{
