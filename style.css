@@ -1,5 +1,8 @@
 body{
     background-color: rgb(242, 201, 165);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 *{
@@ -37,10 +40,11 @@ body{
     float: left;
     margin-top: 4px;
     font-size: 170%;
-    margin-right: 10px;
     color: rgb(56, 22, 0);
     text-decoration: overline;
     padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .op:hover{
@@ -60,16 +64,22 @@ body{
     color: white;
     text-align: center;
     border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .white{
-    background-color: rgb(202, 168, 144);
+    background-color: rgb(255, 227, 208);
     padding: 8px;
     border-radius: 10px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 form{
-    width: fit-content;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -86,6 +96,8 @@ textarea, input{
     background-color: rgba(191, 127, 54, 0.596);
     padding: 10px;
     border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hrr{
