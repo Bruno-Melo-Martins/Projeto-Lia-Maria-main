@@ -1,31 +1,51 @@
 .cabecalho{
-    background-color: rgb(190, 109, 54);
-    font-size: xx-large;
-    height: 70px;
+    height: 60px;
 }
 
-#li{
-    float: right;
-    height: 70px;
+#nome{
+    height: 50px;
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    background-image: url(imagens/liamariahandwriting3.png);
+    width: 193px;
+    float: left;
+    margin-top: 4px;
 }
 
-#li:hover{
-    background-color: rgb(139, 81, 42);
+.menu{
+    float: right;
+    height: 50px;
 }
 
-a:link, a:hover, a:visited{
+.op{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-top: 4px;
+    font-size: 170%;
+    margin-right: 10px;
+    color: rgb(56, 22, 0);
+}
+
+.op:hover{
+    background-color: rgb(135, 77, 41);
+}
+
+a:link, a:visited, a:active{
     text-decoration: none;
-    color: rgb(55, 22, 0);
 }
 
-a:active{
-    color: black;
+#soulia{
+    height: fit-content;
+    width: 100%;
 }
 
-.soulia{
-    background-image: url(imagens/Home.png);
-    height: 650px;
+#ali{
+    width: 100%;
+}
+
+p{
+    font-size: 130%;
+    color: rgb(65, 26, 0);
 }
