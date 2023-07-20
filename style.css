@@ -1,13 +1,22 @@
+body{
+    background-color: rgb(242, 201, 165);
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .cabecalho{
     height: 60px;
+    background-color: rgb(186, 121, 78);
+    margin: -8px;
 }
 
 #nome{
     height: 50px;
     display: flex;
     align-items: center;
-    background-image: url(imagens/liamariahandwriting3.png);
-    width: 193px;
+    width: fit-content;
     float: left;
     margin-top: 4px;
 }
@@ -26,26 +35,59 @@
     font-size: 170%;
     margin-right: 10px;
     color: rgb(56, 22, 0);
+    text-decoration: overline;
+    padding: 2px;
 }
 
 .op:hover{
-    background-color: rgb(135, 77, 41);
+    background-color: rgb(181, 63, 51);
 }
 
-a:link, a:visited, a:active{
-    text-decoration: none;
+.imagem{
+    margin-top: 10px;
 }
 
-#soulia{
-    height: fit-content;
+.img{
     width: 100%;
 }
 
-#ali{
-    width: 100%;
+.black{
+    background-color: rgb(59, 38, 25);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
 }
 
-p{
-    font-size: 130%;
-    color: rgb(65, 26, 0);
+.white{
+    background-color: rgb(202, 168, 144);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea, input{
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    border: solid rgb(119, 75, 32) 1px;
+}
+
+.brown{
+    text-align: justify;
+    background-color: rgba(191, 127, 54, 0.596);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.hrr{
+    color: rgb(99, 60, 25);
+    height: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: rgb(99, 60, 25);
 }
