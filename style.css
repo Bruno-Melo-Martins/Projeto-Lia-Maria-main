@@ -12,6 +12,10 @@ body{
     margin: -8px;
 }
 
+#titte{
+    text-align: center;
+}
+
 #nome{
     height: 50px;
     display: flex;
